@@ -1,0 +1,123 @@
+body {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: white;
+  background: #fbda61;
+}
+
+.converter-container {
+  max-width: 900px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+
+.input-section {
+  background-image: linear-gradient(
+  45deg,
+  hsl(278deg 72% 37%) 0%,
+  hsl(290deg 80% 34%) 11%,
+  hsl(300deg 90% 32%) 22%,
+  hsl(308deg 99% 34%) 33%,
+  hsl(314deg 100% 36%) 44%,
+  hsl(320deg 93% 40%) 56%,
+  hsl(326deg 82% 45%) 67%,
+  hsl(332deg 73% 50%) 78%,
+  hsl(337deg 78% 54%) 89%,
+  hsl(343deg 83% 58%) 100%);
+  margin-top: 3em;
+  height: 35%;
+  padding: 3em 0 4em;
+  border: 15px solid #fff;
+  box-shadow: 10px -4px 19px #000;
+  border-radius: 30px
+}
+
+.input-title {
+  font-size: 350%;
+  font-weight: 900;
+  text-shadow: 5px 4px rgb(0, 0, 0);
+}
+
+.input-section > input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 3em;
+  max-width: 500px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  margin-top: 30px;
+}
+
+.input-section > input:focus {
+  outline: none;
+}
+
+.input-section > input::placeholder {
+  color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.conversion-section {
+  background: linear-gradient(45deg,#ff00dd,#ccdb00, #f70000);
+  padding: 2em 0;
+  border: 15px solid #fff;
+  border-radius: 30px;
+  box-shadow: 10px 6px 19px #000;
+}
+
+.conversion-section > * {
+  margin: 1em 0;
+  letter-spacing: 0.05em;
+  color: black;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+span {
+  display: block;
+}
+
+.convert-type { 
+  font-size: 2em;
+ 
+}
+
+span.unit-conversion {
+  font-weight: lighter;
+  color: rgb(5, 5, 5);
+  font-size: 1em;
+  padding: 1.5%;
+  font-weight: 500;
+}
+
+
+@media (max-width: 600px) {
+  .converter-container {
+    max-width: 400px;
+    margin: 2em auto 0;
+  }
+
+  .input-section,
+  .conversion-section {
+    font-size:x-large;
+  }
+
+  .input-section > input {
+    font-size: 2em;
+    max-width: 150px;
+    margin-top: 20px;
+  }
+}

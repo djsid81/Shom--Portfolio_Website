@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 3 JavaScript Unit Converter</title>
+  <link rel="stylesheet" href="../static/unit.css">
+</head>
+<body>
+  <div class="converter-container">
+    <header class="input-section">
+      <span class="input-title">Metric/Imperial Unit Conversion</span>
+      <input oninput="convert()" id="input-number" placeholder="0"  type="number">
+    </header>
+  
+    <main class="conversion-section">
+      
+      <div class="length-conversion">
+        <span class="convert-type">Length (Meter/Feet)</span>
+        <span class="unit-conversion" id="convert-length">0 meters = 0.000 feet | 0 feet = 0.000 meters</span>
+      </div>     
+
+      <div class="volume-conversion">
+        <span class="convert-type">Volume (Litres/Gallons)</span>
+        <span class="unit-conversion" id="convert-volume">0 litres = 0.000 gallons | 0 gallons = 0.000 litres</span>
+      </div>
+
+      <div class="mass-conversion">
+        <span class="convert-type">Mass (Kilograms/Pounds)</span>
+        <span class="unit-conversion" id="convert-mass">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</span>
+      </div>
+
+    </main>
+  </div>
+
+
+  <script src="../static/unit.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='Bstyle.css') }}">
+<head>
+    <meta charset="UTF-8">
+    <title>Shomridhya Ghosh || Personal Website</title>
+</head>
+<body>
+<div class="container">
+    <section>
+        <div class="container2">
+            <header>
+                <a href="#" class="logo">Welcome</a>
+                <ul>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="certificate.html">Certificates</a></li>
+                    <li><a href="projectList.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <h2>Personal Website</h2>
+                <p>Hii, I am Shomridhya Ghosh, Welcome to my Personal Website. Here I have uploaded everything about me starting from my CV, my Projects, my Certificates and Many More. I even build my very own Virtual Chat Assistant. This Bot knows everything about me. Feel Free to Interact with it. </p>
+                <a href="DigitalCard.html">Digital Card</a>
+            </div>
+            <div class="imgBx">
+                <img src="../static/images/sgpic.png">
+            </div>
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/profile.php?id=100057138631521"><img src="../static/images/facebook.png"></a></li>
+                <li><a href="https://www.instagram.com/djsid81/"><img src="../static/images/instagram.png"></a></li>
+                <li><a href="#"><img src="../static/images/linkedin.png"></a></li>
+            </ul>
+            <p class="Copyright">
+                Done by Shomridhya Ghosh @Djsid. All Right Reserved.
+            </p>
+
+            <div class="chatbox">
+                <div class="chatbox__support">
+                    <div class="chatbox__header">
+                        <div class="chatbox__image--header">
+                            <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                        </div>
+                        <div class="chatbox__content--header">
+                            <h4 class="chatbox__heading--header">Virtual Assistant</h4>
+                            <p class="chatbox__description--header">Hi. I am Shom's Virtual Assistant. You can ask anything about Shom to me. I won't disappoint you.</p>
+                        </div>
+                    </div>
+                    <div class="chatbox__messages">
+                        <div></div>
+                    </div>
+                    <div class="chatbox__footer">
+                        <input type="text" placeholder="Write a message...">
+                        <button class="chatbox__send--footer send__button">Send</button>
+                    </div>
+                </div>
+                <div class="chatbox__button">
+                    <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</div>
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": 
+      [
+        "Hi",
+        "Hii",
+        "Hiii",
+        "Hiiiii",
+        "Hiiiiiiiiiiiiii",
+        "Hey",
+        "Hlo",
+        "Hola",
+        "How is Going?",
+        "How's going?",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": 
+      [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": 
+      [
+        "Bye",
+        "See you later",
+        "By", 
+        "Byy",
+        "Byyy",
+        "Gud By",
+        "Gud Bye",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": 
+      [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful",
+        "Thx", 
+        "Thxe",
+        "Thank's a lot!"
+      ],
+      "responses": 
+      [
+       "Happy to help!", 
+       "Any time!", 
+       "My pleasure"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": 
+      [
+        "What do you know?",
+        "That Information do you possess?",
+        "What do you do?",
+        "What is your purpose?",
+        "Whom do you know?"
+      ],
+      "responses": 
+      [
+        "I can tell you everything about Shom",
+        "I have every information about Shom"
+      ]
+    },
+    {
+      "tag": "Education",
+      "patterns": 
+      [
+        "What is Shomridhya's basic Education?",
+        "What are Educational Qualifications?",
+        "What are his educational qualificatuions?",
+        "is he Educated?",
+        "Tell me about his studies.",
+        "Is Shomridhya Educated Enough?",
+        "Is he Educated?",
+        "Education?"
+      ],
+      "responses": [
+        "Shomridhya has Completed Class both his 10th and 12th under CBSE Boarding from Amrita Vidhyalayam with 92% and 81% respectively. He is no persuing Bachelors in Computer Application from Institute of Engineering and Management. ",
+        "Shomridhya Completed his 10th from Amrita Vidhyalayam affiliated under CBSE Board with 92% Marks, he did his 12th from the same and passed with 81%, He is currently persuing Bachelors in Computer Application from Institute of Engineering and Management Kolkata."
+      ]
+    },
+    {
+      "tag": "10th",
+      "patterns": 
+      [
+        "Class 10th Marks?",
+        "10th Marks?",
+        "10 Marks?"
+      ],
+      "responses": 
+      [
+        "92%"
+      ]
+    },
+    {
+      "tag": "12th",
+      "patterns": 
+      [
+        "Class 12th Marks?",
+        "12th Marks?",
+        "12 Marks?"
+      ],
+      "responses": 
+      [
+        "81%"
+      ]
+    },
+    {
+      "tag": "10th Passed",
+      "patterns": 
+      [
+        "Did Shomridhya Passed 10th?",
+        "Did Shom Passed 10th?",
+        "10th Passed?",
+        "10 passed?"
+      ],
+      "responses": 
+      [
+        "Yes"
+      ]
+    },
+    {
+      "tag": "12th Passed",
+      "patterns": 
+      [
+        "Did Shomridhya Passed 12th?",
+        "Did Shom Passed 12th?",
+        "12th Passed?",
+        "12 passed?"
+      ],
+      "responses": 
+      [
+        "Yes"
+      ]
+    },
+    {
+      "tag": "Schooling",
+      "patterns": 
+      [
+        "How Shom Completed his Schooling?",
+        "How Shomridhya Completed his Schooling?",
+        "What was shomridhya's Schooling?",
+        "Which School Shom was in?",
+        "What School Shom Read in?"
+      ],
+      "responses": 
+      [
+        "Shom Read in NavaNalanda from KG to Class 7, and From Class 8 he Read in Amrita Vidhyalayam."
+      ]
+    },
+    {
+      "tag": "Hobbies",
+      "patterns": 
+      [
+        "What are Shomridhya's Hobbies?",
+        "What are Shom's Hobbies?",
+        "Hobbies?",
+        "Things Shomridhya Love to do?",
+        "Things Shom Loves to do?",
+        "What things Shom Likes to do in his leasure time?",
+        "What things Shom Likes to do in his spare time?"
+      ],
+      "responses": 
+      [
+        "Some of Shom's Hobbies are Playing Chess and Guitar, Learning New Technologies etc.",
+        "Shom Loves to Play Chess or Guitar in his spare time. He also spends a lot of time learning new Technologies."
+      ]
+    },
+    {
+      "tag": "Future Plans",
+      "patterns": 
+      [
+        "What are Shom's Future Plans?",
+        "Whare he sees him in next 5 Years?",
+        "What are his future plans?",
+        "What he wants to do in life?",
+        "What are the things he wants to achieve?"
+      ],
+      "responses": 
+      [
+        "Shom wants to persue a career in Web Development.",
+        "Shom wants to be a Full Stack Developer."
+      ]
+    }
+  ]
+}
